@@ -11,7 +11,7 @@
       <p>
         一切将从这里开始
       </p>
-      <p class="btn btn-lg btn-success">现在注册</p>
+      <a class="btn btn-lg btn-success" href="{{ route('signup') }}" role="button">现在注册</a>
     </div>
   @endif
 @stop
