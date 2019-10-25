@@ -14,3 +14,7 @@
 Route::get('/', 'StaticPagesController@home')->name('home');
 Route::get('/help', 'StaticPagesController@help')->name('help');
 Route::get('/about', 'StaticPagesController@about')->name('about');
+
+// 注册登录
+Route::get('/register', 'StaticPagesController@about')->name('register');
+Route::get('/login', 'StaticPagesController@about')->name('login');
